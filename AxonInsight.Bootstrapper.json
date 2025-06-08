@@ -1,7 +1,8 @@
 [
   {
-    "Version": "0.0.0.3",
-    "Path": "Updater",
-    "Source": "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Bootstrapper/AxonInsight.Updater.0.0.0.3.fbc6a2cb82663cf945aa572c73dfbbafeebca85d00003e4a69e41222d44c5cd4.zip"
+    "PackageVersion": "0.0.0.3",
+    "TargetDirectory": "Updater",
+    "RunAfterUpdate": "AxonInsight.Updater.exe",
+    "PackageUrl": "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Bootstrapper/AxonInsight.Updater.0.0.0.3.fbc6a2cb82663cf945aa572c73dfbbafeebca85d00003e4a69e41222d44c5cd4.zip"
   }
 ]

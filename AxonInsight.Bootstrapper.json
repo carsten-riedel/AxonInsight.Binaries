@@ -1,10 +1,10 @@
 [
   {
-    "PackageVersion": "0.0.0.5",
+    "PackageVersion": "0.0.0.6",
     "TargetDirectory": "Launcher",
     "RunAfterUpdate": "AxonInsight.Launcher.exe",
     "PackageUrls": [
-      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Bootstrapper/AxonInsight.Launcher.0.0.0.5.869011d993a1716aaf4f77adee0b0d6e0c7dd18b20f3571e5f2dda43771bf208.zip"
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Bootstrapper/AxonInsight.Launcher.0.0.0.6.68ec6c9c56828f3490bc2c76e433d58916b5760cf5b2a1f093796ffd95d6c23c.zip"
     ]
   }
 ]

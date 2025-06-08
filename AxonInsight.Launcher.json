@@ -1,9 +1,9 @@
 [
     {
-      "PackageVersion": "0.0.0.3",
+      "PackageVersion": "0.0.0.4",
       "TargetDirectory": "Bootstrapper",
       "PackageUrls": [
-        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Launcher/AxonInsight.Bootstrapper.0.0.0.3.7cbda53ccdf3cc2af653b29aecd82c46d785a3a38bd83ad4afa59b25954ac170.zip"
+        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Launcher/AxonInsight.Bootstrapper.0.0.0.4.c2ff8d29326a37eef4bf17aae3682b27b30eacf7d3f340ccd8143293ca6bbf7c.zip"
       ]
     },
     {
@@ -13,6 +13,6 @@
         "PackageUrls": [
           "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Launcher/AxonInsight.Updater.0.0.0.3.06ea6fa7ec9c435e1b58a6f9df61339158a22b16745c00974f13d6dbffeded76.zip"
         ]
-      }
-  ]
+    }
+]
   

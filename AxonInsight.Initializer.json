@@ -1,9 +1,10 @@
 [
   {
-    "PackageVersion": "0.0.0.4",
-    "TargetDirectory": "Bootstrapper",
+    "PackageVersion": "0.0.0.5",
+    "TargetDirectory": "AxonInsight.Patcher",
+    "RunAfterUpdate": "AxonInsight.Patcher.exe",
     "PackageUrls": [
-      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Launcher/AxonInsight.Bootstrapper.0.0.0.4.c2ff8d29326a37eef4bf17aae3682b27b30eacf7d3f340ccd8143293ca6bbf7c.zip"
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Initializer/AxonInsight.Patcher.0.0.0.5.6bd8dd24ba53d7f2834749b53934e1dabcd9370d5f867396f8b0ea7d46212540.zip"
     ]
   }
 ]

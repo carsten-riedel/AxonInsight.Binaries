@@ -1,0 +1,10 @@
+[
+    {
+      "PackageVersion": "0.0.0.6",
+      "TargetDirectory": "AxonInsight.Initializer",
+      "PackageUrls": [
+        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Initializer.0.0.0.6.f799f6224a02d9956f0a502948959b3ac5995862c591c0ff59492367738df03f.zip"
+      ]
+    }
+]
+  

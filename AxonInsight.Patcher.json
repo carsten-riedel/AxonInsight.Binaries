@@ -5,6 +5,14 @@
       "PackageUrls": [
         "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Initializer.0.0.0.6.f799f6224a02d9956f0a502948959b3ac5995862c591c0ff59492367738df03f.zip"
       ]
-    }
+    },
+    {
+    "PackageVersion": "0.0.0.1",
+    "TargetDirectory": "AxonInsight.Updater",
+    "RunAfterUpdate": "AxonInsight.Updater.exe",
+    "PackageUrls": [
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Updater.0.0.0.1.18ebf60366936f2124da58847acffc27599ef6c9e7694a95224cab8e8f427beb.zip"
+    ]
+  }
 ]
   

@@ -11,7 +11,7 @@
     "TargetDirectory": "AxonInsight.Office.Updater",
     "RunAfterUpdate": "AxonInsight.Office.Updater.exe",
     "PackageUrls": [
-      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Office.Patcher/AxonInsight.Office.Updater.0.0.1.5.3f91956c393fcd894de7362b44189c529b5c57e8d92f514b338dc0ae0172c90b.zip"
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Office.Patcher/AxonInsight.Office.Updater.0.0.1.5.a1423a03fba1ce38d5ef5299e302b7b3d95331227308daaf33adae814b205df7.zip"
     ]
   }
 ]

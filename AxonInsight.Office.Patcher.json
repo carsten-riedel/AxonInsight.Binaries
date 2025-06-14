@@ -1,0 +1,17 @@
+[
+    {
+      "PackageVersion": "0.0.1.3",
+      "TargetDirectory": "AxonInsight.Office.Initializer",
+      "PackageUrls": [
+        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Office.Patcher/AxonInsight.Office.Initializer.0.0.1.3.6a50e825c8f10cc7e17c8e625dc0334a5b5b204c4db18e0800f6a2742646327e.zip"
+      ]
+    },
+    {
+    "PackageVersion": "0.0.1.5",
+    "TargetDirectory": "AxonInsight.Office.Updater",
+    "RunAfterUpdate": "AxonInsight.Office.Updater.exe",
+    "PackageUrls": [
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Office.Patcher/AxonInsight.Office.Updater.0.0.1.5.3f91956c393fcd894de7362b44189c529b5c57e8d92f514b338dc0ae0172c90b.zip"
+    ]
+  }
+]

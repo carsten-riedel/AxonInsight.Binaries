@@ -1,17 +1,17 @@
 [
     {
-      "PackageVersion": "0.0.1.5",
+      "PackageVersion": "0.0.1.6",
       "TargetDirectory": "AxonInsight.Initializer",
       "PackageUrls": [
-        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Initializer.0.0.1.5.b5dedb26bf523e87c5357bafbfc6b0e68fb1d1e84238ed018c8e91fab3d4946b.zip"
+        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Initializer.0.0.1.6.def0840ec1f6c44c09f403a670d5c064eea746759b2eda7dcb5817ddaa9df7f9"
       ]
     },
     {
-    "PackageVersion": "0.0.1.5",
+    "PackageVersion": "0.0.1.6",
     "TargetDirectory": "AxonInsight.Updater",
     "RunAfterUpdate": "AxonInsight.Updater.exe",
     "PackageUrls": [
-      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Updater.0.0.1.5.fc79ca570f0e55187fb14fcede2a28820fde0a0f54e9ff446154d91924d3aea2.zip"
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Updater.0.0.1.6.dea5456a79f982720bd1374ad70a993c04563e665844acda9593ebd8c0fcce70.zip"
     ]
   }
 ]

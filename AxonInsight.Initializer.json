@@ -1,6 +1,7 @@
 [
+    /* Json with comments abled */
     {
-      "PackageVersion": "0.0.1.10", 
+      "PackageVersion": "0.0.1.10",  // Version of the Patcher itself
       "TargetDirectory": "AxonInsight.Patcher",
       "RunAfterUpdate": "AxonInsight.Patcher.exe",
       "PackageUrls": [

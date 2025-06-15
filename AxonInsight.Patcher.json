@@ -7,11 +7,11 @@
       ]
     },
     {
-    "PackageVersion": "0.0.1.8",
+    "PackageVersion": "0.0.1.9",
     "TargetDirectory": "AxonInsight.Updater",
     "RunAfterUpdate": "AxonInsight.Updater.exe",
     "PackageUrls": [
-      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Updater.0.0.1.8.ae932ed1a0f3f146a28cb09e9c73d430ba65e49648c8b529dbd3da0a83cef6c2.zip"
+      "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Patcher/AxonInsight.Updater.0.0.1.9.b128ede8dc0044f162a02122acaa0f64643a773ab75516a181e4af3c1022ea4b.zip"
     ]
   }
 ]

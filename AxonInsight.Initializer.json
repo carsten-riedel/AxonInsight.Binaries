@@ -1,6 +1,6 @@
 [
     {
-      "PackageVersion": "0.0.1.7",
+      "PackageVersion": "0.0.1.7",  //<-- version of the package
       "TargetDirectory": "AxonInsight.Patcher",
       "RunAfterUpdate": "AxonInsight.Patcher.exe",
       "PackageUrls": [

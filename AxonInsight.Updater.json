@@ -1,0 +1,80 @@
+{
+  "ManifestSignature": {
+    "Algorithm": "RSASSA-PKCS1-v1_5-SHA256",
+    "Value": "<base64-encoded-signature>"
+  },
+  "DownloadPolicy": {
+    "TimeoutSeconds": 30,
+    "RetryCount":    3,
+    "BackoffSeconds": 5
+  },
+  "BundlesSourceUrls": [
+    "https://server.com/AxonInsight.Updater/bundles/",
+    "https://server2.com/AxonInsight.Updater/bundles/"
+  ],
+  "BundlesItems": [
+    {
+      "BundlesVersion": "0.0.1.7",
+      "Channel": "stable",
+      "PackageItems": [
+        {
+          "Order": 1,
+          "PackageVersion": "0.0.1.7",
+          "TargetDirectory": "AxonInsight.Initializer",
+          "PackageArtifacts": [
+            {
+              "File": "AxonInsight.Initializer.0.0.1.7.zip",
+              "Type": "zip",
+              "ArtifactSignature": {
+                "Algorithm": "RSASSA-PKCS1-v1_5-SHA256",
+                "Value": "<base64-encoded-item-signature>"
+              },
+              "FileSize": 12345678
+            }
+          ],
+          "Startups": [
+            {
+              "Executable": "Setup.PreChecker.exe",
+              "WorkingDirectory": "AxonInsight.Initializer",
+              "Args": ["--verify", "--config=config.json"],
+              "Phase": "Before"        //<-- runs before unpack/install
+            },
+            {
+              "Executable": "AxonInsight.Initializer.exe",
+              "WorkingDirectory": "AxonInsight.Initializer",
+              "Args": ["--silent"],
+              "Phase": "After"         //<-- runs after this package
+            }
+          ]
+        },
+        {
+          "Order": 2,
+          "PackageVersion": "0.0.1.7",
+          "TargetDirectory": "AxonInsight.Updater",
+          "PackageArtifact": {
+            "File": "AxonInsight.Updater.0.0.1.7.zip",
+            "Type": "zip"
+          },
+          "Checksum": "<sha256-hex>",
+          "FileSize": 23456789,
+          "PackageSignature": {
+            "Algorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "Value": "<base64-encoded-item-signature>"
+          },
+          "Startups": [
+            {
+              "Executable": "AxonInsight.Updater.exe",
+              "Args": ["--silent", "--no-restart"],
+              "Phase": "Before"
+            },
+            {
+              "Executable": "Auxiliary.Tool.exe",
+              "Args": ["/configure", "/log"],
+              "Phase": "After"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

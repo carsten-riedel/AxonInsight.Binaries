@@ -1,11 +1,11 @@
 [
     /* Json with comments abled */
     {
-      "PackageVersion": "0.0.1.10",  // Version of the Patcher itself
+      "PackageVersion": "0.0.1.11",  // Version of the Patcher itself
       "TargetDirectory": "AxonInsight.Patcher",
       "RunAfterUpdate": "AxonInsight.Patcher.exe",
       "PackageUrls": [
-        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Initializer/AxonInsight.Patcher.0.0.1.10.6ae78dc4ba3b51a7647814db9095efa274dc9bc20bfca8769a078df347eb577c.zip"
+        "https://raw.githubusercontent.com/carsten-riedel/AxonInsight.Binaries/refs/heads/main/AxonInsight.Initializer/AxonInsight.Patcher.0.0.1.11.d98127962458b15456e4bd0ccd52b779eef807d404401562312c9209f8155b42.zip"
       ]
     }
 ]  
